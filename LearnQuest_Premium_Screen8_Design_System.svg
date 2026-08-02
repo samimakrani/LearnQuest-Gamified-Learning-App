@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="812" viewBox="0 0 375 812">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6C63FF"/>
+    <stop offset="100%" stop-color="#4F46E5"/>
+  </linearGradient>
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.18"/>
+  </filter>
+</defs>
+
+<rect width="375" height="812" fill="#F7F8FC"/>
+
+<!-- Header -->
+<rect width="375" height="120" fill="url(#g)"/>
+<text x="24" y="48" font-family="Arial" font-size="24" font-weight="700" fill="white">Design System</text>
+<text x="24" y="74" font-family="Arial" font-size="14" fill="white">LearnQuest UI Kit</text>
+
+<!-- Colors -->
+<text x="20" y="155" font-family="Arial" font-size="20" font-weight="700">Color Palette</text>
+<circle cx="45" cy="195" r="18" fill="#6C63FF"/>
+<text x="70" y="200" font-family="Arial" font-size="13">Primary #6C63FF</text>
+
+<circle cx="45" cy="235" r="18" fill="#4F46E5"/>
+<text x="70" y="240" font-family="Arial" font-size="13">Secondary #4F46E5</text>
+
+<circle cx="45" cy="275" r="18" fill="#FBBF24"/>
+<text x="70" y="280" font-family="Arial" font-size="13">Accent #FBBF24</text>
+
+<circle cx="45" cy="315" r="18" fill="#22C55E"/>
+<text x="70" y="320" font-family="Arial" font-size="13">Success #22C55E</text>
+
+<!-- Typography -->
+<text x="20" y="365" font-family="Arial" font-size="20" font-weight="700">Typography</text>
+
+<rect x="20" y="380" width="335" height="95" rx="18" fill="white" filter="url(#shadow)"/>
+<text x="40" y="412" font-family="Arial" font-size="24" font-weight="700">Heading</text>
+<text x="40" y="440" font-family="Arial" font-size="16">Poppins Bold / 24px</text>
+<text x="40" y="462" font-family="Arial" font-size="14" fill="#666">Body: Inter Regular / 14–16px</text>
+
+<!-- Buttons -->
+<text x="20" y="515" font-family="Arial" font-size="20" font-weight="700">Buttons</text>
+
+<rect x="20" y="530" width="150" height="48" rx="24" fill="#6C63FF"/>
+<text x="95" y="560" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Primary</text>
+
+<rect x="190" y="530" width="150" height="48" rx="24" fill="white" stroke="#6C63FF" stroke-width="2"/>
+<text x="265" y="560" text-anchor="middle" font-family="Arial" font-size="16" fill="#6C63FF">Secondary</text>
+
+<!-- Card -->
+<text x="20" y="610" font-family="Arial" font-size="20" font-weight="700">Card Component</text>
+<rect x="20" y="625" width="335" height="90" rx="18" fill="white" filter="url(#shadow)"/>
+<text x="40" y="660" font-family="Arial" font-size="18" font-weight="700">Course Card</text>
+<text x="40" y="685" font-family="Arial" font-size="14" fill="#666">Rounded corners • Shadow • Padding</text>
+
+<!-- Progress -->
+<text x="20" y="745" font-family="Arial" font-size="18" font-weight="700">Progress Bar</text>
+<rect x="20" y="760" width="335" height="10" rx="5" fill="#E5E7EB"/>
+<rect x="20" y="760" width="220" height="10" rx="5" fill="#6C63FF"/>
+
+<text x="20" y="792" font-family="Arial" font-size="12" fill="#666">
+8px Grid • 16px Spacing • Radius 18–24px • Soft Shadows
+</text>
+
+</svg>
